@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hola Mundo</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "estilo1", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "estilo2", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag    "estilo3", media: "all", "data-turbolinks-track" => true %>
+
+  <%= javascript_include_tag "javascript1", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "javascript2", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "javascript3", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>*
+</html>
